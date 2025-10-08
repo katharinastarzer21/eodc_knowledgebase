@@ -1,0 +1,130 @@
+version: 1
+project:
+  title: EODC Knowledgebase & Notebook Gallery
+  toc:
+    - file: index.md
+
+    - title: Overview
+      children:
+        - file: source/overview/about.md
+        - file: source/overview/funding.md
+        - file: source/overview/support.md
+        - file: source/overview/acube.md
+
+    - title: Services
+      children:
+        - title: Argo Workflows
+          file: source/services/ARGO_WORKFLOWS/argo-workflows.md
+        - title: Chiller
+          file: source/services/CHILLER/chiller.md
+        - title: CSW
+          file: source/services/CSW/csw.md
+        - title: DASK
+          file: source/services/DASK/dask.md
+          file: source/services/dask.ipynb 
+        - title: GFM
+          file: source/services/GFM/download_gfm_python
+          file: source/services/GFM/gfm_dask_objectstorage.ipynb
+          file: source/services/GFM/gfm_filter.ipynb
+          file: source/services/GFM/gfm_maximum_flood_extent_dask.ipynb
+          file: source/services/GFM/gfm_maximum_flood_extent_local.ipynb
+          file: source/services/GFM/gfm_maximum_flood_extent_simple_plot.ipynb
+          file: source/services/GFM/gfm_maximum_flood_extent_stac.ipynb
+          file: source/services/GFM/gfm_plot_flood_scene.ipynb
+          file: source/services/GFM/gfm_evaluation.ipynb
+        - title: LINUX
+          file: source/services/LINUX/linux.md 
+        - title: OpenEO
+          file: source/services/OPENEO/openeo-processes.md   
+        - title: OpenStack
+          file: source/services/OPENSTACK/openstack.md
+          file: source/services/OPENSTACK/openstack_starting.md
+          file: source/services/OPENSTACK/general.md
+          file: source/services/OPENSTACK/loadbalencers.md
+          file: source/services/OPENSTACK/distributions.md
+        - title: PyGeoAPI
+          file: source/services/PYGEOAPI/pygeoapi.md
+          file: source/services/PYGEOAPI/pygeoapi_yipeeo.md
+        - title: STAC
+          file: source/services/stac.md
+        - title: Object Store
+          file: source/services/objectstore.md
+        - title: HPC
+          file: source/services/hpc.md
+
+    - title: Tutorials
+      children:
+        - file: source/tutorials/video-tutorials.md
+
+    - title: Gallery
+      children:
+        - title: Tutorials (Notebooks)
+          file: galleries/tutorials.md
+          children:
+            - file: tutorials/AI4SAR_access_data.ipynb
+            - file: tutorials/eodc_sdk_argo.ipynb
+            - file: tutorials/Ground_Motion_WFS.ipynb
+            - file: tutorials/read_yipeeo_data.ipynb
+            - file: tutorials/sen2like.ipynb
+            - file: tutorials/sen2like-ndvi.ipynb
+            - file: tutorials/Sentinel-2.ipynb
+            - file: tutorials/wetland-explorer.ipynb
+
+        - title: Demos (Notebooks)
+          file: galleries/demos.md
+          children:
+            # ASAR
+            - title: ASAR
+              children:
+                - file: demos/ASAR/ASAR_data_access.ipynb
+                - file: demos/ASAR/ENVISAT_OpenEO.ipynb
+
+            # Cloud4Geo Webinar
+            - title: cloud4geo_webinar
+              children:
+                - file: demos/cloud4geo_webinar/landing.ipynb
+                - file: demos/cloud4geo_webinar/python-stac-xarray.ipynb
+                - file: demos/cloud4geo_webinar/python-stac.ipynb
+    
+            - title: eo-mqs
+              children:
+                - file: demos/eo-mqs/1-EO-MQS_DataDiscovery.ipynb
+                - file: demos/eo-mqs/2-Simple-Metadata-Analysis.ipynb
+                - file: demos/eo-mqs/3-Load-STAC-Items-xarray.ipynb
+
+            - title: GFM
+              children:
+                - file: demos/GFM/download_gfm_python.ipynb
+                - file: demos/GFM/gfm_filter.ipynb
+                - file: demos/GFM/gfm_plot_flood_scene.ipynb
+                - file: demos/GFM/gfm_evaluation.ipynb
+
+            - title: S2
+              children:
+                - file: demos/S2/indices.ipynb
+
+            - title: STAC
+              children:
+                - file: demos/STAC/python-stac_DataDiscovery.ipynb
+                - file: demos/STAC/python-stac_LoadDataXarray.ipynb
+
+            - title: workspaces
+              children:
+                - file: demos/workspaces/demo-create-workspace.ipynb
+                - file: demos/workspaces/demo-load-data.ipynb
+                - file: demos/workspaces/demo-register-user.ipynb
+                - file: demos/workspaces/demo-share-workspace.ipynb
+                - file: demos/workspaces/demo-show-files.ipynb
+                - file: demos/workspaces/demo-modify.ipynb
+
+    
+site:
+  template: book-theme
+  options:
+    style: style/custom.css
+    favicon: style/eodc_logo_descr.png
+    logo: style/eodc_logo_descr.png
+    hide_footer_links: true
+    hide_outline: true
+  parts:
+    footer: footer.md
