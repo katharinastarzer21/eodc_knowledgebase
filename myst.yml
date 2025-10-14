@@ -40,15 +40,12 @@ project:
             - source/services/GFM/gfm_plot_flood_scene.ipynb
             - source/services/GFM/gfm_evaluation.ipynb
 
-        - title: LINUX
-          file: source/services/LINUX/linux.md
-
         - title: OpenEO
           file: source/services/OPENEO/openeo.md
 
         - title: OpenStack
           file: source/services/OPENSTACK/openstack.md
-          hidden:
+          children:
             - file: source/services/OPENSTACK/general.md
             - file: source/services/OPENSTACK/openstack_starting.md
             - file: source/services/OPENSTACK/loadbalancers.md
@@ -56,11 +53,16 @@ project:
 
         - title: PyGeoAPI
           file: source/services/PYGEOAPI/pygeoapi.md
-          hidden:
+          children:
             - source/services/PYGEOAPI/pygeoapi_yipeeo.md
 
         - title: STAC
           file: source/services/STAC/stac.md
+          children:
+            - file: source/services/STAC/python-stac_DataDiscovery.ipynb
+            - file: source/services/STAC/python-stac_LoadDataXarray.ipynb
+            - file: source/services/STAC/stac_jupyter.md 
+            - file: source/services/STAC/Sentinel-2.md
 
         - title: Object Store
           file: source/services/objectstore_gallery.md
@@ -70,8 +72,16 @@ project:
 
     - title: Tutorials
       children:
+        - title: Bucket Policies
+          file: source/tutorials/bucket_policies.md
         - title: LINUX
           file: source/services/LINUX/linux.md
+        - title: Titiler overview
+          file: source/tutorials/Thumbnail-Creation.md
+        - title: Video Tutorials
+          file: source/tutorials/video_tutorials_webinar.md
+        - title: Virtual Machine Time Synv
+          file: source/tutorials/time_sync.md
 site:
   template: book-theme
   options:
@@ -79,7 +89,7 @@ site:
     favicon: style/eodc_logo_descr.png
     logo: style/eodc_logo_descr.png
     hide_footer_links: true
-    hide_outline: true
     hidden: true
+    navigation_depth: 2
   parts:
     footer: footer.md
