@@ -58,6 +58,9 @@ project:
 
         - title: Objectstore
           file: source/services/OBJECTSTORE/objectstore.md
+          children:
+            - file: source/services/OBJECTSTORE/s3cmd.md
+              hidden: true
 
         - title: OpenEO
           file: source/services/OPENEO/openeo_gallery.md
@@ -99,11 +102,6 @@ project:
             - file: source/services/STAC/Sentinel-2.md
               hidden: true
 
-        - title: Object Store
-          file: source/services/objectstore_gallery.md
-          children:
-            - file: source/services/OBJECTSTORE/s3cmd.md
-              hidden: true
 
         - title: HPC
           file: source/services/hpc_gallery.md
