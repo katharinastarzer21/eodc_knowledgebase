@@ -1,23 +1,10 @@
 # PyGeoApi EODC 
 
+![pygeo-logo](../../_static/pygeoapi/pygeoapi_logo.png)
+
 This user documentation provides an overview of using the [PyGeoApi deployment](https://features.services.eodc.eu/) at EODC in order to access public and private collections of vector datasets that are available.
 
-<div class="notebook-card" data-tags="" style="display:flex;align-items:flex-start;border:1px solid #cddff1;border-radius:6px;padding:14px 20px;background:#f9fbfe;box-shadow:1px 1px 4px #dfeaf5;margin-bottom:20px">
-  <div style="width:120px;height:90px;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid #e0eaf5;border-radius:6px;overflow:hidden;margin-right:24px;">
-    <img src="../../_static/stac/stac_logo.png" alt="Thumbnail" style="max-width:100%;max-height:100%;object-fit:contain;">
-  </div>
-  <div style="flex:1;">
-    <strong>pyGeoApi Yipeeo</strong><br>
-    <div style="margin:4px 0 8px 0;">Learn about pyGeoApi Yipeeo</div>
-    <div style="margin:6px 0 10px 0;"></div>
-    <a href="pygeoapi_yipeeo.md" style="text-decoration:none;color:#1d70b8;font-weight:bold;">View Notebook</a>
-  </div>
-</div>
-
-
 ## What is PyGeoApi?
-
-![pygeo-logo](../../_static/pygeoapi/pygeoapi_logo.png)
 
 ### Overview
 

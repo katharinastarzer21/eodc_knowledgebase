@@ -1,6 +1,6 @@
 # Demo Argo Workflow
 
-Back to main gallery: 
+Back to Main Gallery: 
 
 <div id="gallery" style="display:flex;flex-direction:column;gap:20px;max-width:900px;">
 <div class="notebook-card" data-tags="" style="display:flex;align-items:flex-start;border:1px solid #cddff1;border-radius:6px;padding:14px 20px;background:#f9fbfe;box-shadow:1px 1px 4px #dfeaf5;margin-bottom:20px">
@@ -8,10 +8,10 @@ Back to main gallery:
     <img src="../../_static/argo/argo_workflows_logo.png" alt="Thumbnail" style="max-width:100%;max-height:100%;object-fit:contain;">
   </div>
   <div style="flex:1;">
-    <strong>Back to main gallery of Argo Workflow</strong><br>
+    <strong>Back to main Gallery of Argo Workflow</strong><br>
     <div style="margin:4px 0 8px 0;"></div>
     <div style="margin:6px 0 10px 0;"></div>
-    <a href="argo_worflows.md" style="text-decoration:none;color:#1d70b8;font-weight:bold;">View Notebook</a>
+    <a href="argo-worflows.md" style="text-decoration:none;color:#1d70b8;font-weight:bold;">View Notebook</a>
   </div>
 </div>
 

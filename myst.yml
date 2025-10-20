@@ -14,9 +14,10 @@ project:
     - title: Services
       children:
         - title: Argo Workflows
-          file: source/services/ARGO_WORKFLOWS/argo-workflows.md
+          file: source/services/ARGO_WORKFLOWS/argo_workflows.md
           children:
             - file: source/services/ARGO_WORKFLOWS/eodc_sdk_argo.md
+              hidden: true
 
         - title: Chiller
           file: source/services/CHILLER/chiller.md
@@ -30,15 +31,30 @@ project:
         - title: GFM
           file: source/services/GFM/gfm.md
           children:
-            - source/services/GFM/gfm_download_python.ipynb
-            - source/services/GFM/gfm_dask_objectstorage.ipynb
-            - source/services/GFM/gfm_filter.ipynb
-            - source/services/GFM/gfm_maximum_flood_extent_dask.ipynb
-            - source/services/GFM/gfm_maximum_flood_extent_local.ipynb
-            - source/services/GFM/gfm_maximum_flood_extent_simple_plot.ipynb
-            - source/services/GFM/gfm_maximum_flood_extent_stac.ipynb
-            - source/services/GFM/gfm_plot_flood_scene.ipynb
-            - source/services/GFM/gfm_evaluation.ipynb
+            - file: source/services/GFM/gfm_download_python.ipynb
+              hidden: true
+            - fie: source/services/GFM/gfm_dask_objectstorage.ipynb
+              hidden: true
+            - file: source/services/GFM/gfm_filter.ipynb
+              hidden: true
+            - file: source/services/GFM/gfm_maximum_flood_extent_dask.ipynb
+              hidden: true
+            - file: source/services/GFM/gfm_maximum_flood_extent_local.ipynb
+              hidden: true
+            - file: source/services/GFM/gfm_maximum_flood_extent_simple_plot.ipynb
+              hidden: true
+            - file: source/services/GFM/gfm_maximum_flood_extent_stac.ipynb
+              hidden: true
+            - file: source/services/GFM/gfm_plot_flood_scene.ipynb
+              hidden: true
+            - file: source/services/GFM/gfm_evaluation.ipynb
+              hidden: true
+
+        - title: HPC
+          file: source/services/HPC/hpc.md
+
+        - title: Objectstore
+          file: source/services/OBJECTSTORE/objectstore.md
 
         - title: OpenEO
           file: source/services/OPENEO/openeo.md
@@ -47,22 +63,31 @@ project:
           file: source/services/OPENSTACK/openstack.md
           children:
             - file: source/services/OPENSTACK/general.md
+              hidden: true
             - file: source/services/OPENSTACK/openstack_starting.md
+              hidden: true
             - file: source/services/OPENSTACK/loadbalancers.md
+              hidden: true
             - file: source/services/OPENSTACK/distributions.md
+              hidden: true
 
         - title: PyGeoAPI
           file: source/services/PYGEOAPI/pygeoapi.md
           children:
-            - source/services/PYGEOAPI/pygeoapi_yipeeo.md
+            - file: source/services/PYGEOAPI/pygeoapi_yipeeo.md
+              hidden: true
 
         - title: STAC
           file: source/services/STAC/stac.md
           children:
             - file: source/services/STAC/python-stac_DataDiscovery.ipynb
+              hidden: true
             - file: source/services/STAC/python-stac_LoadDataXarray.ipynb
+              hidden: true
             - file: source/services/STAC/stac_jupyter.md 
+              hidden: true
             - file: source/services/STAC/Sentinel-2.md
+              hidden: true
 
         - title: Object Store
           file: source/services/objectstore_gallery.md
@@ -89,7 +114,5 @@ site:
     favicon: style/eodc_logo_descr.png
     logo: style/eodc_logo_descr.png
     hide_footer_links: true
-    hidden: true
-    navigation_depth: 2
   parts:
     footer: footer.md
