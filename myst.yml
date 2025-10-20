@@ -27,9 +27,12 @@ project:
 
         - title: DASK
           file: source/services/DASK/dask.md
+          children:
+            - file: source/services/DASK/dask.ipynb
+              hidden: true
 
         - title: GFM
-          file: source/services/GFM/gfm.md
+          file: source/services/GFM/gfm_gallery.md
           children:
             - file: source/services/GFM/gfm_download_python.ipynb
               hidden: true
@@ -57,7 +60,14 @@ project:
           file: source/services/OBJECTSTORE/objectstore.md
 
         - title: OpenEO
-          file: source/services/OPENEO/openeo.md
+          file: source/services/OPENEO/openeo_gallery.md
+          children:
+            - file: source/services/OPENEO/openeo-processes.md
+              hidden: true
+            - file: source/services/OPENEO/sen2like.md
+              hidden: true
+            - file: source/services/OPENEO/workspaces.md
+              hidden: true
 
         - title: OpenStack
           file: source/services/OPENSTACK/openstack.md
@@ -91,11 +101,14 @@ project:
 
         - title: Object Store
           file: source/services/objectstore_gallery.md
+          children:
+            - file: source/services/OBJECTSTORE/s3cmd.md
+              hidden: true
 
         - title: HPC
           file: source/services/hpc_gallery.md
 
-    - title: Tutorials
+    - title: Additional Tutorials
       children:
         - title: Bucket Policies
           file: source/tutorials/bucket_policies.md
@@ -107,6 +120,8 @@ project:
           file: source/tutorials/video_tutorials_webinar.md
         - title: Virtual Machine Time Synv
           file: source/tutorials/time_sync.md
+        - title: Web Feature Services (WFS)
+          file: source/tutorials/wfs.md
 site:
   template: book-theme
   options:
