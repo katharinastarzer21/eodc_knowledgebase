@@ -1,0 +1,109 @@
+# Workspaces
+
+Make sure that the newest version of the eodc-sdk (eodc) is installed.
+It's added to the pyproject.toml so a simple poetry install should
+suffice.
+
+
+<div id="gallery" style="display:flex;flex-direction:column;gap:20px;max-width:900px;">
+<div class="notebook-card" data-tags="GFM" style="display:flex;align-items:flex-start;border:1px solid #cddff1;border-radius:6px;padding:14px 20px;background:#f9fbfe;box-shadow:1px 1px 4px #dfeaf5;">
+  <div style="width:120px;height:90px;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid #e0eaf5;border-radius:6px;overflow:hidden;margin-right:24px;">
+    <img src="../../_static/openeo/openeo_logo.png" alt="Thumbnail" style="max-width:100%;max-height:100%;object-fit:contain;">
+  </div>
+  <div style="flex:1;">
+    <strong>Create EODC Workspace</strong><br>
+    <div style="margin:4px 0 8px 0;">John wants to create a user workspace at EODC, as he does not have a object-storage solution himself.</div>
+    <a href="demo-create-workspace.ipynb" style="text-decoration:none;color:#1d70b8;font-weight:bold;">View Notebook</a>
+  </div>
+</div>
+
+<div class="notebook-card" data-tags="GFM" style="display:flex;align-items:flex-start;border:1px solid #cddff1;border-radius:6px;padding:14px 20px;background:#f9fbfe;box-shadow:1px 1px 4px #dfeaf5;">
+  <div style="width:120px;height:90px;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid #e0eaf5;border-radius:6px;overflow:hidden;margin-right:24px;">
+    <img src="../../_static/openeo/openeo_logo.png" alt="Thumbnail" style="max-width:100%;max-height:100%;object-fit:contain;">
+  </div>
+  <div style="flex:1;">
+    <strong>Load Data</strong><br>
+    <div style="margin:4px 0 8px 0;">This notebooks shows how to load your collections in a simple process.</div>
+    <a href="demo-load-data.ipynb" style="text-decoration:none;color:#1d70b8;font-weight:bold;">View Notebook</a>
+  </div>
+</div>
+
+<div class="notebook-card" data-tags="GFM" style="display:flex;align-items:flex-start;border:1px solid #cddff1;border-radius:6px;padding:14px 20px;background:#f9fbfe;box-shadow:1px 1px 4px #dfeaf5;">
+  <div style="width:120px;height:90px;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid #e0eaf5;border-radius:6px;overflow:hidden;margin-right:24px;">
+    <img src="../../_static/openeo/openeo_logo.png" alt="Thumbnail" style="max-width:100%;max-height:100%;object-fit:contain;">
+  </div>
+  <div style="flex:1;">
+    <strong>Credential Management</strong><br>
+    <div style="margin:4px 0 8px 0;">This notebook will outline how you can create user credentials, delete them and get them if you forget them.</div>
+    <a href="demo-register-user.ipynb" style="text-decoration:none;color:#1d70b8;font-weight:bold;">View Notebook</a>
+  </div>
+</div>
+
+
+<div class="notebook-card" data-tags="GFM" style="display:flex;align-items:flex-start;border:1px solid #cddff1;border-radius:6px;padding:14px 20px;background:#f9fbfe;box-shadow:1px 1px 4px #dfeaf5;">
+  <div style="width:120px;height:90px;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid #e0eaf5;border-radius:6px;overflow:hidden;margin-right:24px;">
+    <img src="../../_static/openeo/openeo_logo.png" alt="Thumbnail" style="max-width:100%;max-height:100%;object-fit:contain;">
+  </div>
+  <div style="flex:1;">
+    <strong>Registering a Workspace</strong><br>
+    <div style="margin:4px 0 8px 0;">John is a PhD student with user collection data stored in a container on Azure blob storage service. </div>
+    <a href="demo-register-workspace.ipynb" style="text-decoration:none;color:#1d70b8;font-weight:bold;">View Notebook</a>
+  </div>
+</div>
+
+<div class="notebook-card" data-tags="GFM" style="display:flex;align-items:flex-start;border:1px solid #cddff1;border-radius:6px;padding:14px 20px;background:#f9fbfe;box-shadow:1px 1px 4px #dfeaf5;">
+  <div style="width:120px;height:90px;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid #e0eaf5;border-radius:6px;overflow:hidden;margin-right:24px;">
+    <img src="../../_static/openeo/openeo_logo.png" alt="Thumbnail" style="max-width:100%;max-height:100%;object-fit:contain;">
+  </div>
+  <div style="flex:1;">
+    <strong>Save openEO result to Workspace</strong><br>
+    <div style="margin:4px 0 8px 0;">Mia is a data scientist, she wants to have access to the user workspace solution to store user results produced with the openEO Platform service offering</div>
+    <a href="demo-save-results.ipynb" style="text-decoration:none;color:#1d70b8;font-weight:bold;">View Notebook</a>
+  </div>
+</div>
+
+
+<div class="notebook-card" data-tags="GFM" style="display:flex;align-items:flex-start;border:1px solid #cddff1;border-radius:6px;padding:14px 20px;background:#f9fbfe;box-shadow:1px 1px 4px #dfeaf5;">
+  <div style="width:120px;height:90px;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid #e0eaf5;border-radius:6px;overflow:hidden;margin-right:24px;">
+    <img src="../../_static/openeo/openeo_logo.png" alt="Thumbnail" style="max-width:100%;max-height:100%;object-fit:contain;">
+  </div>
+  <div style="flex:1;">
+    <strong>Create EODC Workspace</strong><br>
+    <div style="margin:4px 0 8px 0;">Workspace Providers are the name of the different underlying object-storage types that are supported by any given backend.</div>
+    <a href="demo-share-workspace.ipynb" style="text-decoration:none;color:#1d70b8;font-weight:bold;">View Notebook</a>
+  </div>
+</div>
+
+<div class="notebook-card" data-tags="GFM" style="display:flex;align-items:flex-start;border:1px solid #cddff1;border-radius:6px;padding:14px 20px;background:#f9fbfe;box-shadow:1px 1px 4px #dfeaf5;">
+  <div style="width:120px;height:90px;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid #e0eaf5;border-radius:6px;overflow:hidden;margin-right:24px;">
+    <img src="../../_static/openeo/openeo_logo.png" alt="Thumbnail" style="max-width:100%;max-height:100%;object-fit:contain;">
+  </div>
+  <div style="flex:1;">
+    <strong>List Files</strong><br>
+    <div style="margin:4px 0 8px 0;">As an openEO Platform user, Mia wants to list all files in her user workspace.</div>
+    <a href="demo-show-files.ipynb" style="text-decoration:none;color:#1d70b8;font-weight:bold;">View Notebook</a>
+  </div>
+</div>
+
+<div class="notebook-card" data-tags="GFM" style="display:flex;align-items:flex-start;border:1px solid #cddff1;border-radius:6px;padding:14px 20px;background:#f9fbfe;box-shadow:1px 1px 4px #dfeaf5;">
+  <div style="width:120px;height:90px;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid #e0eaf5;border-radius:6px;overflow:hidden;margin-right:24px;">
+    <img src="../../_static/openeo/openeo_logo.png" alt="Thumbnail" style="max-width:100%;max-height:100%;object-fit:contain;">
+  </div>
+  <div style="flex:1;">
+    <strong>STAC Modify Process</strong><br>
+    <div style="margin:4px 0 8px 0;">This notebooks explains the use of the STAC Modify Process.</div>
+    <a href="demo-stac-modify.ipynb" style="text-decoration:none;color:#1d70b8;font-weight:bold;">View Notebook</a>
+  </div>
+</div>
+
+<div class="notebook-card" data-tags="GFM" style="display:flex;align-items:flex-start;border:1px solid #cddff1;border-radius:6px;padding:14px 20px;background:#f9fbfe;box-shadow:1px 1px 4px #dfeaf5;">
+  <div style="width:120px;height:90px;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid #e0eaf5;border-radius:6px;overflow:hidden;margin-right:24px;">
+    <img src="../../_static/openeo/openeo_logo.png" alt="Thumbnail" style="max-width:100%;max-height:100%;object-fit:contain;">
+  </div>
+  <div style="flex:1;">
+    <strong>Workspace Providers</strong><br>
+    <div style="margin:4px 0 8px 0;">Workspace Providers are the name of the different underlying object-storage types that are supported by any given backend.</div>
+    <a href="demo-workspace-providers.ipynb" style="text-decoration:none;color:#1d70b8;font-weight:bold;">View Notebook</a>
+  </div>
+</div>
+

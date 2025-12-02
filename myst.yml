@@ -1,4 +1,5 @@
 version: 1
+
 project:
   title: EODC Knowledgebase & Notebook Gallery
   toc:
@@ -13,6 +14,7 @@ project:
 
     - title: Services
       children:
+
         - title: Argo Workflows
           file: source/services/ARGO_WORKFLOWS/argo_workflows.md
           children:
@@ -34,9 +36,7 @@ project:
         - title: GFM
           file: source/services/GFM/gfm_gallery.md
           children:
-            - file: source/services/GFM/gfm_download_python.ipynb
-              hidden: true
-            - fie: source/services/GFM/gfm_dask_objectstorage.ipynb
+            - file: source/services/GFM/gfm_dask_objectstorage.ipynb
               hidden: true
             - file: source/services/GFM/gfm_filter.ipynb
               hidden: true
@@ -49,8 +49,6 @@ project:
             - file: source/services/GFM/gfm_maximum_flood_extent_stac.ipynb
               hidden: true
             - file: source/services/GFM/gfm_plot_flood_scene.ipynb
-              hidden: true
-            - file: source/services/GFM/gfm_evaluation.ipynb
               hidden: true
 
         - title: HPC
@@ -97,35 +95,55 @@ project:
               hidden: true
             - file: source/services/STAC/python-stac_LoadDataXarray.ipynb
               hidden: true
-            - file: source/services/STAC/stac_jupyter.md 
+            - file: source/services/STAC/stac_jupyter.md
               hidden: true
             - file: source/services/STAC/Sentinel-2.md
               hidden: true
 
-
-        - title: HPC
-          file: source/services/hpc_gallery.md
+        - title: WORKSPACE
+          file: source/services/WORKSPACE/workspaces_gallery.md
+          children:
+            - file: source/services/WORKSPACE/demo-create-workspace.ipynb
+              hidden: true
+            - file: source/services/WORKSPACE/demo-load-data.ipynb
+              hidden: true
+            - file: source/services/WORKSPACE/demo-register-user.ipynb
+              hidden: true
+            - file: source/services/WORKSPACE/demo-register-workspace.ipynb
+              hidden: true
+            - file: source/services/WORKSPACE/demo-save-results.ipynb
+              hidden: true
+            - file: source/services/WORKSPACE/demo-share-workspace.ipynb
+              hidden: true
+            - file: source/services/WORKSPACE/demo-show-files.ipynb
+              hidden: true
+            - file: source/services/WORKSPACE/demo-stac-modify.ipynb
+              hidden: true
+            - file: source/services/WORKSPACE/demo-workspace-providers.ipynb
+              hidden: true
 
     - title: Additional Tutorials
       children:
-        - title: Bucket Policies
-          file: source/tutorials/bucket_policies.md
-        - title: LINUX
-          file: source/services/LINUX/linux.md
-        - title: Titiler overview
-          file: source/tutorials/Thumbnail-Creation.md
-        - title: Video Tutorials
-          file: source/tutorials/video_tutorials_webinar.md
-        - title: Virtual Machine Time Synv
-          file: source/tutorials/time_sync.md
-        - title: Web Feature Services (WFS)
-          file: source/tutorials/wfs.md
+        - file: source/tutorials/bucket_policies.md
+        - file: source/services/LINUX/linux.md
+        - file: source/tutorials/Thumbnail-Creation.md
+        - file: source/tutorials/video_tutorials_webinar.md
+        - file: source/tutorials/time_sync.md
+        - file: source/tutorials/wfs.md
+
 site:
   template: book-theme
   options:
-    style: style/custom.css
-    favicon: style/eodc_logo_descr.png
-    logo: style/eodc_logo_descr.png
+    logo: null
+    favicon: null
+
+    hide_header: true
+    hide_title: true
+    hide_search: true
+    hide_footer: true
     hide_footer_links: true
-  parts:
-    footer: footer.md
+
+    show_toc: true
+    collapse_toc: false
+
+    style: style/custom.css
