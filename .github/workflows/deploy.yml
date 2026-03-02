@@ -42,6 +42,9 @@ jobs:
         with:
           path: './_build/html'
 
+      - name: Show mystmd version
+        run: myst --version
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
