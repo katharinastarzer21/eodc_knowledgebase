@@ -1,6 +1,8 @@
 version: 1
 project:
   title: EODC Knowledgebase & Notebook Gallery
+  jupyter:
+    lite: true
   toc:
     - file: index.md
 
@@ -14,7 +16,8 @@ project:
     - title: Services
       children:
         - title: Argo Workflows
-          file: source/services/ARGO_WORKFLOWS/argo_workflows.md
+          file: source/services/ARGO_WORKFLOWS/test.ipynb
+          #file: source/services/ARGO_WORKFLOWS/argo_workflows.md
           children:
             - file: source/services/ARGO_WORKFLOWS/eodc_sdk_argo.md
               hidden: true
