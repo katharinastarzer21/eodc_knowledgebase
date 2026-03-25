@@ -1,8 +1,7 @@
 version: 1
 project:
   title: EODC Knowledgebase & Notebook Gallery
-  jupyter:
-    lite: true
+  jupyter: true
   toc:
     - file: index.md
 
