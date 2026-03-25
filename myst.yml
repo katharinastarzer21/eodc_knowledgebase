@@ -1,7 +1,8 @@
 version: 1
 project:
-  title: EODC Knowledgebase & Notebook Gallery
-  jupyter: true
+  jupyter:
+    binder:
+      repo: https://github.com/binder-examples/requirements # default repo
   toc:
     - file: index.md
 
